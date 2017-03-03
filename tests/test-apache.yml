@@ -1,10 +1,8 @@
----
-- hosts: localhost
-  remote_user: root
+- hosts: all
 
   vars:
     adminer_add_apache_config: true
 
   roles:
     - oah.apache
-    - ansible-role-oah-adminer
+    - role_under_test
