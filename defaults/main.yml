@@ -1,4 +1,5 @@
 ---
+oah_command: install
 adminer_install_dir: /opt/adminer
 adminer_install_filename: adminer.php
 adminer_symlink_dirs: []
